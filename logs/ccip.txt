@@ -1,0 +1,33 @@
+
+1_deploy_token.js
+=================
+
+   Replacing 'LandFactory'
+   -----------------------
+   > transaction hash:    0x8c561734073f6eba73b3644942ab101625e566fae71dfe7a80b838a5f6ca14ee
+   > Blocks: 2            Seconds: 9
+   > contract address:    0x02cee1134bf54B3f353dbA239C463AD5034de03D
+   > block number:        30856569
+   > block timestamp:     1687264763
+   > account:             0x710e11f08f5874Cb1D557883b2d6F5a45D949546
+   > balance:             1.516686708324444016
+   > gas used:            5378636 (0x52124c)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.05378636 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.05378636 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.05378636 ETH
+
+
+root@192 sc # truffle run verify LandFactory --network bscTestnet
+Verifying LandFactory
+Pass - Verified: https://testnet.bscscan.com/address/0x02cee1134bf54B3f353dbA239C463AD5034de03D#code
+Successfully verified 1 contract(s).
+root@192 sc # 
